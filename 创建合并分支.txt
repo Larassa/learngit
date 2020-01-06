@@ -1,0 +1,17 @@
+Git鼓励大量使用分支：
+
+查看分支：git branch
+
+创建分支：git branch <name>
+
+切换分支：git checkout <name>或者git switch <name>
+
+创建+切换分支：git checkout -b <name>或者git switch -c <name>
+
+合并某分支到当前分支：git merge <name>
+
+删除分支：git branch -d <name>
+
+禁用fast forward 的合并分支：git merge --no-ff -m "merge with no-ff" dev
+
+如果要丢弃一个没有被合并过的分支，可以通过git branch -D <name>强行删除。

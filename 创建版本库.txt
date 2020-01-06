@@ -1,0 +1,14 @@
+1.先建立目录：mkdir learngit
+2.转到当前目录：cd learngit
+3.查看当前目录：pwd
+4.通过命令把这个目录变成Git可以管理的仓库：git init
+5.在当前目录下新建一个文本文件添加进版本库：git add readme.txt
+6.提交添加的文件：git commit -m "wrote a readme file"
+
+注：可以一次添加多个文件也可以提交多个文件
+
+
+
+git status  查看当前状态
+git diff 查看修改内容
+git log命令显示从最近到最远的提交日志
